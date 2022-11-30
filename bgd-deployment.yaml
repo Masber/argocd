@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   labels:
     app: bgd
-  name: bgd
+  name: bgd-2
   namespace: bgd
 spec:
   replicas: 1
