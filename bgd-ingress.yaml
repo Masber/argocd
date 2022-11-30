@@ -3,6 +3,7 @@ kind: Ingress
 metadata:
   name: bgd
 spec:
+  ingressClassName: nginx
   rules:
     - host: bgd.thanos.hack2022.ch
       http:
